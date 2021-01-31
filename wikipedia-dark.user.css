@@ -5796,6 +5796,14 @@ regexp("^https://(foundation|donate)\.wikimedia\.org.*$") {
     border-top: solid 1px var(--blue-4);
     border-left: solid 1px var(--blue-4);
   }
+  .ns-talk #mw-content-text dl, .ns-talk #mw-content-text dl dl dl,
+  .ns-talk #mw-content-text dl dl dl dl dl,
+  .ns-talk #mw-content-text dl dl dl dl dl dl dl,
+  .ns-talk #mw-content-text dl dl dl dl dl dl dl dl dl,
+  .ns-talk #mw-content-text dl dl dl dl dl dl dl dl dl dl dl,
+  .ns-talk #mw-content-text dl dl dl dl dl dl dl dl dl dl dl dl dl {
+    background: var(--gray-3);
+  }
   .ns-talk #mw-content-text dl dl, .ns-talk #mw-content-text dl dl dl dl,
   .ns-talk #mw-content-text dl dl dl dl dl dl,
   .ns-talk #mw-content-text dl dl dl dl dl dl dl dl,
