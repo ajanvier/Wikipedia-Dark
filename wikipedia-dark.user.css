@@ -5824,7 +5824,8 @@ regexp("^https://(foundation|donate)\.wikimedia\.org.*$") {
   .infobox_v3 p.bordered {
     border-color: var(--blue-4) !important;
   }
-  .bandeau-niveau-ebauche, .bandeau-niveau-information {
+  .bandeau-niveau-ebauche, .bandeau-niveau-information,
+  .bandeau-niveau-detail, .bandeau-section.bandeau-niveau-information {
     border-color: var(--blue-4);
     background-color: var(--gray-2);
   }
