@@ -5788,6 +5788,12 @@ regexp("^https://(foundation|donate)\.wikimedia\.org.*$") {
     border-color: var(--blue-4) !important;
     background-color: var(--blue-2);
   }
+  .bandeau-discussion.bandeau-niveau-information .bandeau-cell table {
+    background-color: var(--gray-2) !important;
+  }
+  .bandeau-discussion.bandeau-niveau-information .bandeau-cell table td[style*="background-color"] {
+    color: initial;
+  }
   .boite-grise {
     background-color: var(--gray-2);
     border-color: var(--gray-4);
